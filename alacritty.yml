@@ -1,0 +1,56 @@
+
+# Font configuration
+font:
+  normal:
+    family: "FiraCode Nerd Font"  # Replace this with your preferred Nerd Font
+
+  bold:
+    family: "FiraCode Nerd Font"
+
+  italic:
+    family: "FiraCode Nerd Font"
+
+# Cursor configuration
+cursor:
+  style:
+    shape: Block  # Options: Block, Underline, Beam (make sure to use proper capitalization)
+
+# Colors (this section can be customized with any color scheme)
+colors:
+  primary:
+    background: '#1c1c1c'
+    foreground: '#dcdcdc'
+  normal:
+    black:   '#1c1c1c'
+    red:     '#af5f5f'
+    green:   '#5f875f'
+    yellow:  '#87875f'
+    blue:    '#5f87af'
+    magenta: '#5f5f87'
+    cyan:    '#5f8787'
+    white:   '#6c6c6c'
+  bright:
+    black:   '#444444'
+    red:     '#ff6c6b'
+    green:   '#98be65'
+    yellow:  '#ecbe7b'
+    blue:    '#51afef'
+    magenta: '#c678dd'
+    cyan:    '#46d9ff'
+    white:   '#dfdfdf'
+
+# Scrolling configuration
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# Window settings
+window:
+  dimensions:
+    columns: 120
+    lines: 30
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: false
+  startup_mode: Windowed  # Options: Windowed, Fullscreen, or Maximized
